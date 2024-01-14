@@ -28,8 +28,7 @@ public class ApiApplication {
 	CommandLineRunner commandLineRunner(UserRepository userRepository,
 										PokemonRepository pokemonRepository,
 										RoleRepository roleRepository) {
-		return getCommandLineRunner
-				(userRepository, pokemonRepository, roleRepository);
+		return getCommandLineRunner(userRepository, pokemonRepository, roleRepository);
 	}
 
 	private static CommandLineRunner getCommandLineRunner(UserRepository userRepository, PokemonRepository pokemonRepository, RoleRepository roleRepository) {
